@@ -1,4 +1,13 @@
 
+import pathlib
+
+from setuptools import find_packages, setup
+
+
+with open("README.md", "r") as fh:
+    long_description = fh.read()
+    
+
 setup(
     name="fib-rust-python.",
     version="0.0.1",
