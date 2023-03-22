@@ -9,8 +9,8 @@ with open("README.md", "r") as fh:
     
 
 setup(
-    name="fib-rust-python.",
-    version="0.0.1",
+    name="fib-rust-python",
+    version="",
     author="Jaime Calahorrano based on the work of Maxwell Flitton",
     author_email="jcalahor@yahoo.com",
     description="Calculates a Fibonacci number",
