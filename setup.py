@@ -9,7 +9,7 @@ with open("README.md", "r") as fh:
     
 
 setup(
-    name="fib-rust-python",
+    name="fib_rust_python",
     version="",
     author="Jaime Calahorrano based on the work of Maxwell Flitton",
     author_email="jcalahor@yahoo.com",
