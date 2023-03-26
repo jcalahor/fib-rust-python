@@ -1,6 +1,6 @@
 import argparse
 
-from flitton_fib_py.fib_calcs.fib_number \
+from fib_rust_python.fib_calcs.fib_number \
     import recurring_fibonacci_number
 
 
