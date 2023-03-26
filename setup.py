@@ -18,8 +18,13 @@ setup(
     calculates Fibonacci numbers",
     long_description_content_type="text/markdown",
     url="https://github.com/jcalahor/fib-rust-python.git",
-    install_requires=[],
-    packages=find_packages(exclude=("tests",)),
+    install_requires=[
+        "PyYAML>=4.1.2",
+        "dill>=0.2.8"
+    ],
+    extras_require={
+     'server': ["Flask>=1.0.0"]
+    },    packages=find_packages(exclude=("tests",)),
     classifiers=[
     "Development Status :: 4 - Beta",
     "Programming Language :: Python :: 3",
