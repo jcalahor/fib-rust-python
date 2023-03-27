@@ -23,9 +23,7 @@ setup(
         "PyYAML>=4.1.2",
         "dill>=0.2.8"
     ],
-    extras_require={
-     'server': ["Flask>=1.0.0"]
-    },    packages=find_packages(exclude=("tests",)),
+    packages=find_packages(exclude=("tests",)),
     classifiers=[
             "License :: OSI Approved :: MIT License",
             "Development Status :: 3 - Alpha",
