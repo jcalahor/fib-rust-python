@@ -23,7 +23,6 @@ setup(
         "PyYAML>=4.1.2",
         "dill>=0.2.8"
     ],
-    packages=find_packages(exclude=("tests",)),
     classifiers=[
             "License :: OSI Approved :: MIT License",
             "Development Status :: 3 - Alpha",
