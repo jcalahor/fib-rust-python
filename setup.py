@@ -6,7 +6,7 @@ from setuptools_rust import Binding, RustExtension
 
 
 setup(
-    name="fib_rust_python",
+    name="fib-rust-python",
     version="",
     rust_extensions=[RustExtension(
         ".fib_rust_python.fib_rust_python",
