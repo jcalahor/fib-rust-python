@@ -1,2 +1,1 @@
-def say_hello() -> None:
-    print("the Flitton Fibonacci module is saying hello")
+from .fib_rust_python import *
