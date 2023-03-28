@@ -7,7 +7,7 @@ from setuptools_rust import Binding, RustExtension
 
 setup(
     name="fib-rust-python",
-    version="",
+    version="0.1",
     rust_extensions=[RustExtension(
         ".fib_rust_python.fib_rust_python",
         path="Cargo.toml", binding=Binding.PyO3)],
