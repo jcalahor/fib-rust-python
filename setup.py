@@ -18,7 +18,7 @@ setup(
     long_description="A basic library that \
     calculates Fibonacci numbers",
     long_description_content_type="text/markdown",
-    url="https://github.com/jcalahor/fib-rust-python.git",python
+    url="https://github.com/jcalahor/fib-rust-python.git",
     install_requires=[
         "PyYAML>=4.1.2",
         "dill>=0.2.8"
