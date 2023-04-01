@@ -21,7 +21,7 @@ fn print_dicts(a: &PyDict) -> PyResult<i32> {
         println!("key: {} value: {}", k, num);
         r += num;
     }
-    r
+    Ok(r);
 }
 
 
